@@ -41,7 +41,7 @@ public class Truk extends Kendaraan{
                 System.out.println("Maaf tidak terdapat kerusakan dalam kendaraan anda");
                 return 0;
         }
-        System.out.println("Terdapat kerusakan pada " + this.kerusakan);
+        System.out.println("Terdapat kerusakan pada " + this.kerusakan );
         System.out.println("Biaya pelayanan yang perlu dibayar sebanyak " + biaya +"$");
         return biaya;
     }
@@ -49,6 +49,6 @@ public class Truk extends Kendaraan{
     @Override
     public void info_spesifikasi() {
         super.info_spesifikasi();
-        System.out.println("Kapasitas angkut maksimal " +this.kapasitasAngkut.kapasitas +" ton");
+        System.out.println("Kapasitas angkut maksimal : " +this.kapasitasAngkut.kapasitas +" ton");
     }
 }

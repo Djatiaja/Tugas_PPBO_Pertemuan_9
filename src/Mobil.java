@@ -45,6 +45,6 @@ public class Mobil extends Kendaraan{
     }
     public void info_spesifikasi() {
         super.info_spesifikasi();
-        System.out.println("Tipe  " + this.jenis +" : " +this.tipemobil );
+        System.out.println("Tipe " + this.jenis +" : " +this.tipemobil );
     }
 }

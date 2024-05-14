@@ -24,7 +24,7 @@ public class SepedaMotor extends Kendaraan{
     public void setRandomKerusakan() {
         Random random = new Random();
         String[] listKerusakan = {"Mesin", "Eksterior"};
-        this.kerusakan = listKerusakan[random.nextInt(3)];
+        this.kerusakan = listKerusakan[random.nextInt(2)];
     }
 
     public int biayaKerusakan(){
